@@ -15,14 +15,17 @@ And Óscar Toledo Gutiérrez begat a [program][atomchess], and it was a true Boo
 
 And Alex Garcia begat a [program][chesskelet], and it ran on ZX Spectrum. And he called its name ChesSkelet, saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller, and it was 352 bytes long.
 
+And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
+
 ## Who
 © 2019 [Dmitry Shechtman][contact]
 
 ## License
 [MIT License](license.md)
 
-[1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess/
+[1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess
 [bootchess]: http://olivier.poudade.free.fr/src/BootChess.asm
 [atomchess]: https://nanochess.org/chess6.html
-[chesskelet]: http://chesskelet.x10host.com/
+[chesskelet]: http://chesskelet.x10host.com
+[source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
