@@ -20,6 +20,7 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
+<a name="AT"></a>
 ## Why the AT?
 
 Obviously, because AT stands for Advanced Technology! On a slightly more serious note, this question is quite a complex one (to answer, at least).
@@ -101,31 +102,31 @@ H. G. Muller offers the following [definition]:
   from the set of Chess moves that are legal from the current position
   according to the FIDE rules.
 
-Since LeanChess seems to fail this test, it cannot be considered a *full chess* implementation. Yet, it is:
+Since LeanChess seems to fail this test, it cannot be considered a **full chess** implementation. Yet, it is:
 
 * recognisably chess,
 * very playable,
 * employs actual AI, and
 * surpasses (most of) its predecessors in terms of functionality
 
-while remaining the smallest of all. We consider this **sufficiently chess**.
+while remaining the smallest. We dub it **sufficiently chess**.
 
-Full chess (up to a point) and improved UX are planned features, albeit in neither Barebone nor Classic editions of LeanChess, naturally.
+Full chess (up to a point) and improved UX are planned future additions to LeanChess, albeit in neither of its currently published editions.
 
 ## Is It Really the Smallest?
 
-Some people like to argue that a program that outputs `resign` and terminates should be considered the world's smallest chess program. H. G. Muller to the rescue:
+Some people like to argue that a program that outputs `resign` and terminates should be considered the world's smallest chess program. H. G. Muller to the rescue once more:
 
 > Chess is the act of moving pieces on a (real or virtual) Chess
   board, and (...) actions like resigning or negociating a draw
   are merely part of a general mechanism of organizing matches
   or tournaments, which are not part of Chess.
 
-A question of greater interest is the possibility of creating an actual chess program that would be smaller than LeanChess.
+A question of greater interest to us is the possibility of an actual chess program breaking the record currently held by LeanChess.
 
-First, the size of LeanChess itself can be marginally reduced by abusing the `pusha`/`popa` optimisation. We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing it on two occasions, where we deemed it absolutely necessary.
+First, the size of LeanChess itself can be marginally reduced by abusing the `pusha`/`popa` optimisation (see *Why the AT?* above). We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing in the two instances we deemed absolutely necessary.
 
-Second, we expect a straightforward port of LeanChess to an 8-bit architecture to produce a considerably smaller binary.
+Second, we expect a straightforward port of LeanChess to an [8-bit architecture][#AT] to produce a considerably smaller binary.
 
 Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on this achievement.
 
