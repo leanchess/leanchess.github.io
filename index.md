@@ -6,7 +6,9 @@
 A very small chess program.
 
 ## Who
-© 2019 Dmitry Shechtman
+© 2019 [Dmitry Shechtman][contact]
 
 ## License
-[MIT License](https://mit-license.org)
+[MIT License](license.md)
+
+[contact]: mailto:contact@leanchess.com
