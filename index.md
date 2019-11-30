@@ -16,22 +16,30 @@ And Óscar Toledo Gutiérrez begat a [program][atomchess], and it was a true Boo
 
 And Alex Garcia begat a [program][chesskelet], and it ran on ZX Spectrum. And he called its name ChesSkelet, saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller; and it was 352 bytes long.
 
-And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
+And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had 
+Max, and no men came to make it smaller; and it was 329 bytes long.
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
 ## Is It Really Chess?
 
-[H. G. Muller][hgm] offers the following definition:
+H. G. Muller offers the following [definition]:
 
 > A Chess program is a program that can finish more than 50% of the
   games it plays against an opponent that plays moves randomly chosen
   from the set of Chess moves that are legal from the current position
   according to the FIDE rules.
 
+Therefore, LeanChess cannot be considered a *full chess* implementation, but it is still:
+
+* recognisably chess
+* playable
+* employs actual AI, and
+* surpasses its predecessors in function
+
 ## Is It Really the Smallest?
 
-Some people like to argue that a program that outputs `resign` is technically the world's smallest chess program. Agian, [H. G. Muller][hgm] to the rescue:
+Some people like to argue that a program that outputs `resign` is technically the world's smallest chess program. H. G. Muller to the rescue:
 
 > Chess is the act of moving pieces on a (real or virtual) Chess
   board, and (...) actions like resigning or negociating a draw
@@ -44,6 +52,7 @@ Some people like to argue that a program that outputs `resign` is technically th
 ## License
 [MIT License](license.md)
 
+[definition]: http://home.hccnet.nl/h.g.muller/definition.txt
 [1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess
 [bootchess]: http://olivier.poudade.free.fr/src/BootChess.asm
 [toledo]: https://nanochess.org/chess.html
