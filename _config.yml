@@ -4,7 +4,7 @@ description: A very small chess program
 source: leanchess/leanchess
 
 author:
-  name: Some Person
+  name: Dmitry Shechtman
 
 social-network-links:
   rss: true
