@@ -21,6 +21,24 @@ Max, and no men came to make it smaller; and it was 329 bytes long.
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
+## How Lean Is It?
+
+As the smallest possible size is desired, substantial compromises are inevitable. Namely, LeanChess does not implement:
+
+* input validation (i.e., it accepts any four characters as the coordinates of a legal move)
+* pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet)
+* pawn promotion (to queen or otherwise)
+* en passant capture
+* castling
+* checkmate/stalemate detection
+* threefold repetition rule
+* fifty-move rule
+
+In addition, the UX is most rudimentary. The Barebone edition removes the period markings and replaces Bs with Os, which brings us to
+
+## Why the Os?
+
+
 ## Is It Really Chess?
 
 H. G. Muller offers the following [definition]:
