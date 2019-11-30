@@ -86,11 +86,11 @@ Reasons for denoting a bishop as O are many:
 
 Again, there are numerous reasons for applying this particular design to OSless editions:
 
-1. Black is the best of all colors.
+1. Black is the leanest of all colors.
 1. LeanChess always plays black.
-1. Black pieces look like 
-1. Brown board looks like unpainted wood.
-1. 1 byte of code is removed by reusing the character count value before invoking the BIOS display interrupt.
+1. Black lends the pieces the color of upscale marble.
+1. Brown lends the board the color of unpainted wood.
+1. 1 byte of code is removed by using the same value for character count and character attributes.
 
 ## Is It Really Chess?
 
