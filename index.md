@@ -18,7 +18,7 @@ And Alex Garcia begat a [program][chesskelet], and it ran on ZX Spectrum. And he
 
 And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
 
-There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [microchess] and [others][hgm].
+There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
 ## Who
 © 2019 [Dmitry Shechtman][contact]
@@ -33,7 +33,7 @@ There were giants in the earth in those days, and also before that. Óscar Toled
 [js1k]: https://nanochess.org/chess4.html#js1k
 [nanochess]: https://nanochess.org/chess3.html
 [hgm]: http://home.hccnet.nl/h.g.muller/chess.html
-[microchess]: http://home.hccnet.nl/h.g.muller/max-src2.html
+[micromax]: http://home.hccnet.nl/h.g.muller/max-src2.html
 [chesskelet]: http://chesskelet.x10host.com
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
