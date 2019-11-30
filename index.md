@@ -34,22 +34,23 @@ Since all its (known) bugs had been fixed, LeanChess won every game it played ag
 
 Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement any of the following:
 
-* input validation (i.e., it accepts any four characters as the coordinates of a legal move)
-* pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet)
-* pawn promotion (to queen or otherwise)
-* en passant capture
-* castling
-* checkmate/stalemate detection
-* threefold repetition rule
-* fifty-move rule
+* input validation (i.e., it accepts any four characters as the coordinates of a legal move),
+* pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet),
+* pawn promotion (to queen or otherwise),
+* en passant capture,
+* castling,
+* checkmate/stalemate detection,
+* threefold repetition rule or
+* fifty-move rule.
 
 In addition, the UX is most rudimentary, namely:
 
-* 25x40 text (uppercase for white and lowercase for black)
-* no file or rank labels
-* no prompt
-* no input indication (except for DOS editions)
-* Barebone edition removes the empty square markings
+* 25x40 text (uppercase for white and lowercase for black),
+* no file or rank labels,
+* no prompt,
+* no input indication (except for DOS editions),
+* OSless editions output all pieces in black and the board in brown,
+* Barebone edition removes the empty square markings, and
 * Barebone edition replaces Bs with Os,
 
 which brings us to:
@@ -83,18 +84,20 @@ H. G. Muller offers the following [definition]:
   from the set of Chess moves that are legal from the current position
   according to the FIDE rules.
 
-Therefore, LeanChess cannot be considered a *full chess* implementation, but it is still:
+Since LeanChess seems to fail this test, it cannot be considered a *full chess* implementation. However, it is:
 
-* recognisably chess
-* playable
+* recognisably chess,
+* very playable,
 * employs actual AI, and
-* surpasses its predecessors in functionality
+* surpasses (most of) its predecessors in terms of functionality while remaining the smallest of all.
 
-Implementing full chess rules (and some UX improvements) are planned, albeit in neither Barebone nor Classic LeanChess.
+We consider this **suffitiently chess**.
+
+Full chess and UX improvements are planned features, albeit in neither Barebone nor Classic editions of LeanChess.
 
 ## Is It Really the Smallest?
 
-Some people like to argue that a program that outputs `resign` is technically the world's smallest chess program. H. G. Muller to the rescue:
+Some people like to argue that a program that outputs `resign` and terminates should be considered the world's smallest chess program. H. G. Muller to the rescue:
 
 > Chess is the act of moving pieces on a (real or virtual) Chess
   board, and (...) actions like resigning or negociating a draw
