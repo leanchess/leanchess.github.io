@@ -20,19 +20,23 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
-## Can It Be Called Chess?
+## Is It Really Chess?
 
-To quote [H.G.Muller][hgm]:
-
-> Chess is the act of moving pieces on a (real or virtual) Chess
-  board, and that actions like resigning or negociating a draw
-  are merely part of a general mechanism of organizing matches
-  or tournaments, which are not part of Chess.
+[H. G. Muller][hgm] offers the following definition:
 
 > A Chess program is a program that can finish more than 50% of the
   games it plays against an opponent that plays moves randomly chosen
   from the set of Chess moves that are legal from the current position
   according to the FIDE rules.
+
+## Is It Really the Smallest?
+
+Some people like to argue that a program that outputs `resign` is technically the world's smallest chess program. Agian, [H. G. Muller][hgm] to the rescue:
+
+> Chess is the act of moving pieces on a (real or virtual) Chess
+  board, and (...) actions like resigning or negociating a draw
+  are merely part of a general mechanism of organizing matches
+  or tournaments, which are not part of Chess.
 
 ## Who
 © 2019 [Dmitry Shechtman][contact]
