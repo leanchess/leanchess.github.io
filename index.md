@@ -20,9 +20,17 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
+## How Good Is It?
+
+LeanChess features:
+
+* exhaustive NegaMax search
+* to constant depth (the default is 3, although 4 performed acceptably in our DOSBox)
+* with material-based evaluation.
+
 ## How Lean Is It?
 
-As the smallest possible program size is the goal, substantial compromises are inevitable. LeanChess does not implement any of the following:
+Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement any of the following:
 
 * input validation (i.e., it accepts any four characters as the coordinates of a legal move)
 * pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet)
