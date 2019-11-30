@@ -116,7 +116,7 @@ Since LeanChess seems to fail this test, it cannot be considered a **full chess*
 
 while remaining the smallest. We dub it **sufficiently chess**.
 
-Full chess (up to a point) and improved UX are planned future additions to LeanChess, albeit in neither of its currently published editions.
+Full chess (up to a point) and improved UX are planned future LeanChess extensions, albeit to neither of its currently published editions.
 
 <a name="smallest"></a>
 ## Is It Really the Smallest?
