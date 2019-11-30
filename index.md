@@ -2,7 +2,7 @@
 
 ## Lean Introduction
 
-LeanChess is a chess-playing program for the IBM PC AT (a 16-bit machine) and compatibles. As of this writing, it is the smallest known chess program in the world. The minimal LeanChess edition (Barebone DOS) takes 329 bytes, 33 bytes less than the [previous record holder][chesskelet] and less than half the size of the legendary [1K ZX Chess][1kchess].
+LeanChess is a chess-playing program for the IBM PC AT (a 16-bit machine) and compatibles. As of this writing, it is the smallest chess program known to exist. The smallest LeanChess edition (Barebone DOS) takes up 329 bytes, 33 bytes less than the [previous record holder][chesskelet] and less than half the size of the legendary [1K ZX Chess][1kchess].
 
 How small is 329 bytes? Following Alex Garcia's (lost) lead, we tweaked the previous paragraph to be of that exact size (not counting the links).
 
