@@ -34,7 +34,7 @@ On to the reason from switching from the PC to the AT. As we were browsing throu
 
 > Note: this instruction works only on 80186 CPU and later!
 
-As it turned out, `pusha` replaces eight consecutive `push` instructions, while its counterpart, `popa` replaces seven (the recovered SP value is discarded), meaning that the two, when used in conjunction, could bring up to 14 bytes worth of savings. We were naturally eager to try this, and they did just that for LeanChess. We then repeated the procedure, for a somewhat humbler profit (the exact byte count is lost to the ages). It was either between or after these two instances that LeanChess became smaller than Atomchess.
+As it turned out, `pusha` replaces eight consecutive `push` instructions, while its counterpart, `popa` replaces seven (the recovered SP value is discarded), meaning that the two, when used in conjunction, could bring up to 14 bytes worth of savings. We were naturally eager to try this, and they did just that for LeanChess. We then repeated the procedure, for a somewhat humbler profit (the exact byte count is lost to the ages). It was either between or immediately after these two instances that LeanChess became smaller than Atomchess.
 
 No computer series (to speak of) were based on 80186, making IBM PC AT the earliest platform to support this extension and, coincidentally, the minimum requirement for LeanChess.
 
