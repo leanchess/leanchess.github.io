@@ -22,7 +22,7 @@ There were giants in the earth in those days, and also before that. Óscar Toled
 
 ## Why the AT?
 
-Obviously, because AT stands for Advanced Technology! Actually, this question is not a simple one (to answer).
+Obviously, because AT stands for Advanced Technology! On a slightly more serious note, this question is quite a complex one (to answer, at least).
 
 Many years ago, when we had hair where it belongs and didn't where it doesn't, we taught ourself the assembly language of the 8086 processor (shared by its cripple brother, the 8088, which the original IBM PC was built around). After using it for writing a couple of (entirely harmless) viruses we moved on to other endeavours.
 
