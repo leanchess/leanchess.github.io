@@ -28,6 +28,8 @@ LeanChess features:
 * to constant depth (the default is 3, although 4 performed acceptably in our DOSBox)
 * with material-based evaluation.
 
+Since all its (known) bugs had been fixed, LeanChess won every game it played against its author, probably a testimony to the weakness of the latter rather than to the strength of the former.
+
 ## How Lean Is It?
 
 Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement any of the following:
