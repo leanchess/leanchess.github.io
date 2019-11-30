@@ -25,7 +25,7 @@ There were giants in the earth in those days, and also [before that][story]. Jan
 
 Obviously, because AT stands for Advanced Technology! On a slightly more serious note, this question is quite a complex one (to answer, at least).
 
-Many years ago, when we had hair where it belongs and didn't where it doesn't, we taught ourself the assembly language of the 8086 processor (shared by its cripple brother, the 8088, which the original IBM PC was built around). After using it for writing a couple of (entirely harmless) viruses we moved on to other endeavours.
+Many years ago, when we had hair where it belongs and didn't where it doesn't, we taught ourselves the assembly language of the 8086 processor (shared by its cripple brother, the 8088, which the original IBM PC was built around). After using it for writing a couple of (entirely harmless) viruses we moved on to other endeavours.
 
 In late 2019, when we pondered developing an assembly-language chess game, the choice of platform seemed obvious to us. 8086/8088 assembly was still the only one we had had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed we wouldn't ever approach [AtomChess]'s size, much less so that of [ChesSkelet].
 
