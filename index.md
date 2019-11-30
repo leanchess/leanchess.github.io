@@ -39,6 +39,8 @@ On to the reason from switching from the PC to the AT. As we were browsing throu
 
 As it turned out, `pusha` replaces eight consecutive `push` instructions, whereas its counterpart `popa` replaces seven (the recovered SP value is discarded), meaning that the two, when used in conjunction, could bring up to 12 bytes worth of savings. We were naturally eager to try this, and they did just that for LeanChess. We then repeated the procedure, for a somewhat humbler profit (the exact byte count is lost to the ages). It was either between or immediately after these two instances that LeanChess became smaller than Atomchess.
 
+Fun fact: we didn't know how to enable 80186 assembly, so we initially substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Once we added the `.186` directive, we were pleasantly surprised by an additional byte being removed from the binary as a result.
+
 No computer series (to speak of) were based on 80186, making IBM PC AT the earliest platform to support this extension and, coincidentally, the minimum requirement for LeanChess.
 
 ## How Good Is It?
@@ -53,7 +55,7 @@ Since all its (known) bugs had been fixed, LeanChess won every game it played ag
 
 ## How Lean is It?
 
-Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement
+Since our objective is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement
 
 * input validation (i.e., it accepts any four characters as the coordinates of a legal move),
 * pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet),
@@ -73,7 +75,7 @@ Furthermore, the UX is fairly rudimentary, offering
 * Barebone editions removing the empty square markings, and
 * Barebone editions replacing Bs with Os,
 
-which brings us to:
+which brings us to the question:
 
 ## Why Os for Bishops?
 
@@ -110,7 +112,7 @@ Since LeanChess seems to fail this test, it cannot be considered a **full chess*
 * recognisably chess,
 * very playable,
 * employs actual AI, and
-* surpasses (most of) its predecessors in terms of functionality
+* surpasses (most of) its predecessors in terms of functionality,
 
 while remaining the smallest. We dub it **sufficiently chess**.
 
