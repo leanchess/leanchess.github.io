@@ -14,9 +14,11 @@ And the land had rest 20H years. And Olivier Poudade begat a [program][bootchess
 
 And Óscar Toledo Gutiérrez begat a [program][atomchess], and it was a true Boot Chess. And he called its name Atomchess, saying, Atom is the smallest of particles. And it ran on x86, and all saw that it was good. And it came to pass, that men came and made Atomchess smaller; and it was 383 bytes long.
 
-And Alex Garcia begat a [program][chesskelet], and it ran on ZX Spectrum. And he called its name ChesSkelet, saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller, and it was 352 bytes long.
+And Alex Garcia begat a [program][chesskelet], and it ran on ZX Spectrum. And he called its name ChesSkelet, saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller; and it was 352 bytes long.
 
 And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
+
+There were giants in the earth in those days, and also before that. Óscar Toledo G. begat [Nanochess][nanochess], [JavaScript 1K Chess][jsk1], [Atari Atomchess][atomchess], and [others][toledo].
 
 ## Who
 © 2019 [Dmitry Shechtman][contact]
@@ -26,7 +28,10 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 [1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess
 [bootchess]: http://olivier.poudade.free.fr/src/BootChess.asm
+[toledo]: https://nanochess.org/chess.html
 [atomchess]: https://nanochess.org/chess6.html
+[js1k]: https://nanochess.org/chess4.html#js1k
+[nanochess]: https://nanochess.org/chess3.html
 [chesskelet]: http://chesskelet.x10host.com
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
