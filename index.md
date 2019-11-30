@@ -23,7 +23,7 @@ There were giants in the earth in those days, and also before that. Óscar Toled
 
 ## How Lean Is It?
 
-As the smallest possible size is desired, substantial compromises are inevitable. Namely, LeanChess does not implement:
+As the smallest possible program size is the goal, substantial compromises are inevitable. LeanChess does not implement any of the following:
 
 * input validation (i.e., it accepts any four characters as the coordinates of a legal move)
 * pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet)
@@ -34,10 +34,25 @@ As the smallest possible size is desired, substantial compromises are inevitable
 * threefold repetition rule
 * fifty-move rule
 
-In addition, the UX is most rudimentary. The Barebone edition removes the period markings and replaces Bs with Os, which brings us to
+In addition, the UX is most rudimentary, namely:
+
+* 25x40 text (uppercase for white and lowercase for black)
+* no file or rank labels
+* no prompt
+* no input indication (except for DOS editions)
+* Barebone edition removes the empty square markings
+* Barebone edition replaces Bs with Os,
+
+which brings us to:
 
 ## Why the Os?
 
+The reasons for rendering bishops as O are many:
+
+1. The bishop is mostly round.
+1. The bishop is colloquially called *офицер (officer)* in Russian-speaking cultures.
+1. The bishop is denoted as O in at least five different cultures, namely: Albanian, Bulgarian, Estonian, Hindi, Marathi [1].
+1. The bishOp has an O in English, so it may be denoted as O (similarly to kNight)
 
 ## Is It Really Chess?
 
@@ -88,3 +103,4 @@ Finally, LeanChess was created from scratch by a lone programmer with no outside
 [chesspro]: https://www.chessprogramming.org/Main_Page
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
+[1]: https://en.wikipedia.org/wiki/Chess_piece
