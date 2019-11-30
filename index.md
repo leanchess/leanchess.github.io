@@ -26,9 +26,9 @@ Obviously, because AT stands for Advanced Technology! On a slightly more serious
 
 Many years ago, when we had hair where it belongs and didn't where it doesn't, we taught ourself the assembly language of the 8086 processor (shared by its cripple brother, the 8088, which the original IBM PC was built around). After using it for writing a couple of (entirely harmless) viruses we moved on to other endeavours.
 
-In late 2019, when we pondered developing an assembly-language chess game, the choice seemed obvious. After all, 8086/8088 assembly remained the only one we had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed we wouldn't ever approach [AtomChess]'s size, much less so that of [ChesSkelet].
+In late 2019, when we pondered developing an assembly-language chess game, the choice seemed obvious. 8086/8088 assembly was still the only one we had had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed we wouldn't ever approach [AtomChess]'s size, much less so that of [ChesSkelet].
 
-For the benefit of the lest technically savvy reader, a small interjection is in order. 8086, being a 16-bit processor, has a reacher instruction set than that of its typical 8-bit counterpart, which means that more bytes are required for encoding an average instruction. As a consequence, an (average) assembly language program of equivelant function would require much less storage space, unless it specifically requires 16-bit (or larger) words for computations and/or memory access. Chess, conversely, lends itself ideally to an 8-bit assembly implementation.
+To benefit the less technically savvy reader, an interjection is in order. 8086, being a 16-bit processor, offers a reacher instruction set than does its typical 8-bit counterpart, which means that more bytes are required for encoding an average instruction. As a consequence, an (average) assembly language program of equivelant function would require much less storage space, unless it specifically requires 16-bit (or larger) words for computations and/or memory access. Chess, conversely, lends itself ideally to eight bits.
 
 ## How Good Is It?
 
