@@ -20,6 +20,14 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
+## Why the AT?
+
+Obviously, because AT stands for Advanced Technology! Actually, this question is not a simple one (to answer).
+
+Many years ago, when we had hair where it belongs, and didn't where it doesn't, we taught ourself the assembly language of the 8086 processor and of its cripple brother, the 8088, which the original IBM PC was built around. After using it to write a couple of (entirely harmless) viruses we moved on to other endeavours.
+
+In late 2019, when we pondered an assembly-language chess program, the choice seemed obvious to us. 8086/8088 assembly was the only one we were experienced in, and, as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable.
+
 ## How Good Is It?
 
 LeanChess features:
