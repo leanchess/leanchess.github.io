@@ -143,5 +143,5 @@ Finally, LeanChess was created from scratch by a lone programmer with no outside
 [chesspro]: https://www.chessprogramming.org/Main_Page
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
-[license]: https://github.com/leanchess/leanchess/LICENSE
+[license]: https://github.com/leanchess/leanchess/blob/master/LICENSE
 [1]: https://en.wikipedia.org/wiki/Chess_piece
