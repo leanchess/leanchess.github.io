@@ -69,7 +69,9 @@ Therefore, LeanChess cannot be considered a *full chess* implementation, but it 
 * recognisably chess
 * playable
 * employs actual AI, and
-* surpasses its predecessors in function
+* surpasses its predecessors in functionality
+
+Implementing full chess rules (and some UX improvements) are planned, albeit in neither Barebone nor Classic LeanChess.
 
 ## Is It Really the Smallest?
 
@@ -87,9 +89,6 @@ First, the size of LeanChess itself can be marginally reduced by abusing the `pu
 Second, we expect a straightforward port of LeanChess to an 8-bit architecture to produce a considerably smaller program.
 
 Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on this achievement.
-
-## License
-[MIT License](license.md)
 
 [definition]: http://home.hccnet.nl/h.g.muller/definition.txt
 [1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess
