@@ -50,7 +50,7 @@ A question of greater interest is the possibility of creating an actual chess pr
 
 First, the size of LeanChess itself can be marginally reduced by abusing the pair of `pusha`/`popa`. Instead, we chose to leave the program lean in terms of stack allocation, and only used two on two occasions, where we deemed it absolutely necessary.
 
-Second, a straightforward port of LeanChess to an 8-bit architecture will probably produce an even smaller chess program.
+Second, we expect a straightforward port of LeanChess to an 8-bit architecture to produce a considerably smaller program.
 
 Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on this achievement.
 
