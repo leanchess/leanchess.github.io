@@ -33,7 +33,7 @@ In late 2019, when we pondered developing an assembly-language chess game, the c
 To benefit the less technically savvy reader, an oversimplified interjection is in order. 8086, being a 16-bit processor, offers a reacher instruction set than does its typical 8-bit counterpart, thus more bytes are needed for encoding an average instruction. As a consequence, a (typical) 8-bit machine language program of equivalent function will consume substantially less storage space, unless it specifically requires 16-bit (or larger) words for arithmetics and/or memory accesses. Chess, conversely, lends itself ideally to the 8-bit realm. This explains the little hope we had of beating the author of [ChesSkelet] at his game (sizecoding, not chess).
 
 <a name="pusha"></a>
-On to the reason from switching from the PC to the AT. As we were browsing through the x86 documentation, we stumbled upon an unfamiliar instruction: `pusha`. The description read:
+On to the reason for switching from the PC to the PC AT. As we were browsing through the x86 documentation, we stumbled upon an unfamiliar instruction: `pusha`. The description read:
 
 > Note: this instruction works only on 80186 CPU and later!
 
