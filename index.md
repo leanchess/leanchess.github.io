@@ -50,7 +50,7 @@ Since all its (known) bugs had been fixed, LeanChess won every game it played ag
 
 ## How Lean is It?
 
-Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement any of the following:
+Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement
 
 * input validation (i.e., it accepts any four characters as the coordinates of a legal move),
 * pawn 2-square advance (i.e., it does not consider it, but accepts it as a legal move, see previous bullet),
@@ -58,18 +58,17 @@ Since the goal is the smallest possible program size, substantial compromises ar
 * en passant capture,
 * castling,
 * checkmate/stalemate detection,
-* threefold repetition rule or
-* fifty-move rule.
+* threefold repetition or fifty-move rule.
 
-In addition, the UX is most rudimentary, namely:
+Furthermore, the UX is fairly rudimentary, offering
 
-* 25x40 text (uppercase for white and lowercase for black),
-* no file or rank labels,
-* no prompt,
-* no input indication (except for DOS editions),
-* OSless Barebone edition outputs all pieces in black and the board in brown,
-* Barebone editions remove the empty square markings, and
-* Barebone editions replace Bs with Os,
+* 25x40 text display (uppercase for white and lowercase for black)
+* with no file or rank labels,
+* no prompt and
+* no input indication (except for DOS editions), with
+* OSless Barebone edition displaying black pieces on brown board,
+* Barebone editions removing the empty square markings, and
+* Barebone editions replacing Bs with Os,
 
 which brings us to:
 
