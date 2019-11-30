@@ -126,7 +126,7 @@ A question of greater interest to us is the possibility of an actual chess progr
 
 First, the size of LeanChess itself could be further reduced (albeit marginally) by abusing the `pusha`/`popa` [optimisation](#AT). We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing it in the two instances we deemed absolutely necessary.
 
-Second, we expect a straightforward port of LeanChess to an [8-bit architecture](#AT) to produce a considerably smaller binary.
+Second, we expect a straightforward port of LeanChess to an [8-bit architecture](#AT) to produce a considerably smaller binary. We leave this as an exercise for the reader, kindly requesting that, should they partake it, [the original copyright notice be included][license].
 
 Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on our accomplishment.
 
@@ -143,4 +143,5 @@ Finally, LeanChess was created from scratch by a lone programmer with no outside
 [chesspro]: https://www.chessprogramming.org/Main_Page
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
+[license]: https://github.com/leanchess/leanchess/LICENSE
 [1]: https://en.wikipedia.org/wiki/Chess_piece
