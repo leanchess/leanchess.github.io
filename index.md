@@ -39,7 +39,7 @@ On to the reason from switching from the PC to the AT. As we were browsing throu
 
 As it turned out, `pusha` replaces eight consecutive `push` instructions, whereas its counterpart `popa` replaces seven (the recovered SP value is discarded), meaning that the two, when used in conjunction, could yield up to 12 bytes worth of savings. We were naturally eager to try this, and they did just that for LeanChess. We then repeated the procedure, for a somewhat humbler profit (the exact byte count is lost to the ages). It was either between or immediately after these two instances that LeanChess became smaller than Atomchess.
 
-Fun fact: as we didn't initially know how to enable 80186 assembly, we blatantly substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Then, adding the `.186` directive resulted in a further 1 byte being magically removed from the output.
+As we didn't initially know how to enable 80186 assembly, we blatantly substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Curiously, adding the `.186` directive resulted in a further 1 byte being magically removed from the output.
 
 No computer series (to speak of) were based on 80186, making IBM PC AT the earliest platform to support this extension and, coincidentally, the minimum requirement for LeanChess.
 
