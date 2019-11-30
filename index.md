@@ -27,7 +27,7 @@ Obviously, because AT stands for Advanced Technology! On a slightly more serious
 
 Many years ago, when we had hair where it belongs and didn't where it doesn't, we taught ourselves the assembly language of the 8086 processor (shared by its cripple brother, the 8088, which the original IBM PC was built around). After using it for writing a couple of (entirely harmless) viruses we moved on to other endeavours.
 
-In late 2019, when we pondered developing an assembly-language chess game, the choice of platform seemed obvious to us. 8086/8088 assembly was still the only one we had had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed the resultant program wouldn't ever come close to [AtomChess] in size, much less so to [ChesSkelet].
+In late 2019, when we pondered developing an assembly-language chess game, the choice of platform seemed obvious to us. 8086/8088 assembly was still the only one we had had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed the resultant program wouldn't ever come close to [AtomChess], much less so to [ChesSkelet].
 
 <a name="16-bit"></a>
 To benefit the less technically savvy reader, an oversimplified interjection is in order. 8086, being a 16-bit processor, offers a reacher instruction set than does its typical 8-bit counterpart, thus more bytes are needed for encoding an average instruction. As a consequence, a (typical) 8-bit machine language program of equivalent function will consume substantially less storage space, unless it specifically requires 16-bit (or larger) words for arithmetics and/or memory accesses. Chess, conversely, lends itself ideally to the 8-bit realm. This explains the little hope we had of beating the author of [ChesSkelet] at his game (sizecoding, not chess).
@@ -37,9 +37,9 @@ On to the reason for switching from the PC to the PC AT. As we were browsing thr
 
 > Note: this instruction works only on 80186 CPU and later!
 
-As it turned out, `pusha` replaces eight consecutive `push` instructions, whereas its counterpart `popa` replaces seven (the recovered SP value is discarded), meaning that the two, when used in conjunction, could yield up to 12 bytes worth of savings. We were naturally eager to try this, and they did just that for LeanChess. We then repeated the procedure, for a somewhat humbler profit (the exact byte count is lost to the ages). It was either between or immediately after these two instances that LeanChess became smaller than Atomchess.
+As it turned out, `pusha` replaces eight consecutive `push`s, whereas its counterpart `popa` replaces seven `pop`s (along with two `dec sp`s in lieu of `pop sp`), meaning that using the two in conjunction could effectively reduce code size by up to 12 bytes. We tried it, and it did. We then repeated the procedure to gain another, more modest reduction in size (the exact byte count is lost to the ages). It was either between or immediately after these two instances that LeanChess became smaller than Atomchess.
 
-As we didn't initially know how to enable 80186 assembly, we blatantly substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Curiously, adding the `.186` directive resulted in a further 1 byte being magically removed from the output.
+As we didn't initially know how to enable 80186 assembly, we blatantly substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Curiously, adding a `.186` assembler directive resulted in a further 1 byte being magically removed from the output.
 
 No computer series (to speak of) were based on 80186, making IBM PC AT the earliest platform to support this extension and, coincidentally, the minimum requirement for LeanChess.
 
