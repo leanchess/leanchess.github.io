@@ -47,12 +47,12 @@ which brings us to:
 
 ## Why the Os?
 
-The reasons for rendering bishops as O are many:
+The reasons for denoting a bishop as O are many:
 
-1. The bishop is mostly round.
-1. The bishop is colloquially called *офицер (officer)* in Russian-speaking cultures.
-1. The bishop is denoted as O in at least five different cultures, namely: Albanian, Bulgarian, Estonian, Hindi, Marathi [1].
-1. The bishOp has an O in English, so it may be denoted as O (similarly to kNight)
+1. It is colloquially known as *офицер (officer)* in Russian-speaking cultures.
+1. It is denoted as O in at least five different cultures, namely: Albanian, Bulgarian, Estonian, Hindi, Marathi [^1].
+1. BishOp contains an O, which brings it on par with kNight.
+1. It is mostly round.
 
 ## Is It Really Chess?
 
@@ -103,4 +103,4 @@ Finally, LeanChess was created from scratch by a lone programmer with no outside
 [chesspro]: https://www.chessprogramming.org/Main_Page
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
-[1]: https://en.wikipedia.org/wiki/Chess_piece
+[^1]: https://en.wikipedia.org/wiki/Chess_piece
