@@ -28,7 +28,7 @@ Many years ago, when we had hair where it belongs and didn't where it doesn't, w
 
 In late 2019, when we pondered developing an assembly-language chess game, the choice seemed obvious. After all, 8086/8088 assembly remained the only one we had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed we wouldn't ever approach [AtomChess]'s size, much less so that of [ChesSkelet].
 
-For the benefit of the lest technically savvy reader, a small interjection is in order. 8086, being a 16-bit processor, has a reacher instruction set than that of its typical 8-bit counterpart, which means that more bytes are required for encoding an average instruction. As a consequence, an (average) assembly language program of equivelant function would require much less storage space, unless it specifically requires 16-bit (or larger) words for computations and/or memory access. Chess, on the other, lends itself ideally to an 8-bit assembly implementation.
+For the benefit of the lest technically savvy reader, a small interjection is in order. 8086, being a 16-bit processor, has a reacher instruction set than that of its typical 8-bit counterpart, which means that more bytes are required for encoding an average instruction. As a consequence, an (average) assembly language program of equivelant function would require much less storage space, unless it specifically requires 16-bit (or larger) words for computations and/or memory access. Chess, conversely, lends itself ideally to an 8-bit assembly implementation.
 
 ## How Good Is It?
 
