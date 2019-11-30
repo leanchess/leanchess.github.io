@@ -48,7 +48,7 @@ LeanChess features:
 
 Since all its (known) bugs had been fixed, LeanChess won every game it played against its author, probably a testimony to the weakness of the latter rather than to the strength of the former.
 
-## How Lean Is It?
+## How Lean is It?
 
 Since the goal is the smallest possible program size, substantial compromises are inevitable. LeanChess does not implement any of the following:
 
@@ -73,19 +73,19 @@ In addition, the UX is most rudimentary, namely:
 
 which brings us to:
 
-## Why the Os?
+## Why Os for Bishops?
 
-The reasons for denoting a bishop as O are many:
+Reasons for denoting a bishop as O are many:
 
 1. It is colloquially known as *офицер (officer)* in Russian-speaking cultures.
-1. It is denoted as O in at least five different cultures, namely: Albanian, Bulgarian, Estonian, Hindi, and Marathi<sup>[1]</sup>.
+1. It is denoted as O in at least five different languages, namely: Albanian, Bulgarian, Estonian, Hindi, and Marathi<sup>[1]</sup>.
 1. BishOp contains an O, which brings it on par with kNight.
 1. It is mostly round.
 1. 7 bytes of code are removed thanks to the fact that K, N, O, P, Q and R are no farther than 7 positions apart in the ASCII table.
 
 ## Why Black on Brown?
 
-Again, there are numerous reasons for using this particular design in OSless editions:
+Again, there are numerous reasons for applying this particular design to OSless editions:
 
 1. Black is the best of all colors.
 1. LeanChess always plays black.
