@@ -53,6 +53,7 @@ The reasons for denoting a bishop as O are many:
 1. It is denoted as O in at least five different cultures, namely: Albanian, Bulgarian, Estonian, Hindi, and Marathi<sup>[1]</sup>.
 1. BishOp contains an O, which brings it on par with kNight.
 1. It is mostly round.
+1. 7 bytes of code are removed thanks to the fact that K,N,O,P,Q and R are no farther than 7 positions apart in the ASCII table.
 
 ## Is It Really Chess?
 
