@@ -12,13 +12,13 @@ In the beginning David Horne created [1K ZX Chess][1kchess]. And 1K Chess ran on
 
 And the land had rest 20H years. And Olivier Poudade begat a program, and he called its name [BootChess]. And BootChess ran on x86, and it was 468 bytes long; and all saw that it was boot.
 
-And Óscar Toledo Gutiérrez begat a program, and it was a true Boot Chess. And he called its name [Atomchess], saying, Atom is the smallest of particles. And it ran on x86, and all saw that it was good. And it came to pass, that men came and made Atomchess smaller; and it was 383 bytes long.
+And Óscar Toledo Gutiérrez begat a program, and it was a true Boot Chess. And he called its name [Atomchess], saying, The atom is the smallest of particles. And it ran on x86, and all saw that it was good. And it came to pass, that men came and made Atomchess smaller; and it was 383 bytes long.
 
 And Alex Garcia begat a program, and it ran on ZX Spectrum. And he called its name [ChesSkelet], saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller; and it was 352 bytes long.
 
-And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 328 bytes long.
+And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And it was good, and no men came to make it smaller; and it was 328 bytes long.
 
-There were giants in the earth in those days, and also [before that][story]. Jan Kuipers had begotten [Tiny Chess 86][tinychess86]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
+There were giants in the earth in those days, and also [before that][story]. Jan Kuipers had begotten [Tiny Chess 86][tinychess86]. H. G. Muller had begotten [MicroMax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
 
 <a name="AT"></a>
 ## Why the AT?
