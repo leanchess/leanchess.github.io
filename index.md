@@ -62,7 +62,17 @@ The reasons for denoting a bishop as O are many:
 1. It is denoted as O in at least five different cultures, namely: Albanian, Bulgarian, Estonian, Hindi, and Marathi<sup>[1]</sup>.
 1. BishOp contains an O, which brings it on par with kNight.
 1. It is mostly round.
-1. 7 bytes of code are removed thanks to the fact that K,N,O,P,Q and R are no farther than 7 positions apart in the ASCII table.
+1. 7 bytes of code are removed thanks to the fact that K, N, O, P, Q and R are no farther than 7 positions apart in the ASCII table.
+
+## Why Black on Brown?
+
+Again, there are numerous reasons for using this particular design in OSless editions:
+
+1. Black is the best of all colors.
+1. LeanChess always plays black.
+1. Black pieces look like 
+1. Brown board looks like unpainted wood.
+1. 1 byte of code is removed by reusing the character count value before invoking the BIOS display interrupt.
 
 ## Is It Really Chess?
 
