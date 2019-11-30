@@ -9,6 +9,9 @@ A very small chess program.
 
 In the beginning David Horne created [1K ZX Chess][1kchess]. And the chess was 672 bytes long; and all saw that it was good.
 
+And the land had rest thirty two years. And Olivier Poudade begat a [program][bootchess], and called its name BootChess. And BootChess was 468 bytes long; and all saw that it was boot.
+
+
 ## Who
 © 2019 [Dmitry Shechtman][contact]
 
@@ -16,4 +19,5 @@ In the beginning David Horne created [1K ZX Chess][1kchess]. And the chess was 6
 [MIT License](license.md)
 
 [1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess/
+[bootchess]: http://olivier.poudade.free.fr/src/BootChess.asm
 [contact]: mailto:contact@leanchess.com
