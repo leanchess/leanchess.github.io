@@ -2,3 +2,9 @@ theme: jekyll-theme-hacker
 title: LeanChess
 description: A very small chess program
 source: leanchess/leanchess
+
+social-network-links:
+  rss: true
+  email: contact@leanchess.com
+  github: leanchess
+  twitter: leanchess
