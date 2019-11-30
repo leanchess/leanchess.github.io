@@ -37,12 +37,13 @@ On to the reason for switching from the PC to the PC AT. As we were browsing thr
 
 > Note: this instruction works only on 80186 CPU and later!
 
-As it turned out, `pusha` replaces eight consecutive `push`s, whereas its counterpart `popa` replaces seven `pop`s (along with two `dec sp`s in lieu of `pop sp`), meaning that using the two in conjunction could effectively reduce code size by up to 12 bytes. We tried it, and it did. We then repeated the procedure to gain another, more modest reduction in size (the exact byte count is lost to the ages). It was either between or immediately after these two instances that LeanChess became smaller than Atomchess.
+As it turned out, `pusha` replaces eight consecutive `push`s, whereas its counterpart `popa` replaces seven `pop`s (along with two `dec sp`s in lieu of `pop sp`), meaning that using the two in conjunction could effectively reduce code size by up to 12 bytes. Applying this optimisation twice to LeanChess made it at least a 20 bytes smaller (the exact number is lost to the ages). It was either between or immediately after these two instances that it became leaner than Atomchess.
 
 As we didn't initially know how to enable 80186 assembly, we blatantly substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Curiously, adding a `.186` assembler directive resulted in a further 1 byte being magically removed from the output.
 
 No computer series (to speak of) were based on 80186, making IBM PC AT the earliest platform to support this extension and, coincidentally, the minimum requirement for LeanChess.
 
+<a name="strength"></a>
 ## How Good Is It?
 
 LeanChess features:
