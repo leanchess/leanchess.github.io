@@ -18,7 +18,7 @@ And Alex Garcia begat a program, and it ran on ZX Spectrum. And he called its na
 
 And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
 
-There were giants in the earth in those days, and also before that. Jan Kuipers had begotten [Tiny Chess 86]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
+There were giants in the earth in those days, and also before that. Jan Kuipers had begotten [Tiny Chess 86][tinychess86]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
 
 <a name="AT"></a>
 ## Why the AT?
