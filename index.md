@@ -16,8 +16,7 @@ And Óscar Toledo Gutiérrez begat a [program][atomchess], and it was a true Boo
 
 And Alex Garcia begat a [program][chesskelet], and it ran on ZX Spectrum. And he called its name ChesSkelet, saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller; and it was 352 bytes long.
 
-And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had 
-Max, and no men came to make it smaller; and it was 329 bytes long.
+And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
 
 There were giants in the earth in those days, and also before that. Óscar Toledo G. had begotten [Nanochess][nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm].
 
