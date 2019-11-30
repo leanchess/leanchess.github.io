@@ -1,4 +1,4 @@
 theme: jekyll-theme-hacker
 title: LeanChess
 description: A very small chess program
-source: https://github.com/leanchess/leanchess
+source: leanchess/leanchess
