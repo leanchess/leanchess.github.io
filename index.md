@@ -49,9 +49,9 @@ In addition, the UX is most rudimentary, namely:
 * no file or rank labels,
 * no prompt,
 * no input indication (except for DOS editions),
-* OSless editions output all pieces in black and the board in brown,
-* Barebone edition removes the empty square markings, and
-* Barebone edition replaces Bs with Os,
+* OSless Barebone edition outputs all pieces in black and the board in brown,
+* Barebone editions remove the empty square markings, and
+* Barebone editions replace Bs with Os,
 
 which brings us to:
 
@@ -84,16 +84,16 @@ H. G. Muller offers the following [definition]:
   from the set of Chess moves that are legal from the current position
   according to the FIDE rules.
 
-Since LeanChess seems to fail this test, it cannot be considered a *full chess* implementation. However, it is:
+Since LeanChess seems to fail this test, it cannot be considered a *full chess* implementation. Yet, it is:
 
 * recognisably chess,
 * very playable,
 * employs actual AI, and
-* surpasses (most of) its predecessors in terms of functionality while remaining the smallest of all.
+* surpasses (most of) its predecessors in terms of functionality
 
-We consider this **suffitiently chess**.
+while remaining the smallest of all. We consider this **sufficiently chess**.
 
-Full chess and UX improvements are planned features, albeit in neither Barebone nor Classic editions of LeanChess.
+Full chess (up to a point) and improved UX are planned features, albeit in neither Barebone nor Classic editions of LeanChess, naturally.
 
 ## Is It Really the Smallest?
 
