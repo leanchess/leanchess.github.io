@@ -48,7 +48,7 @@ Some people like to argue that a program that outputs `resign` is technically th
 
 A question of greater interest is the possibility of creating an actual chess program that would be smaller than LeanChess.
 
-First, the size of LeanChess itself can be marginally reduced by abusing the pair of `pusha`/`popa`. Instead, we chose to leave the program lean in terms of stack allocation, and only used two on two occasions, where we deemed it absolutely necessary.
+First, the size of LeanChess itself can be marginally reduced by abusing the `pusha`/`popa` optimisation. We opted to leave the program lean also in terms of stack allocation, and only resorted to employing it on two occasions, where deemed absolutely necessary.
 
 Second, we expect a straightforward port of LeanChess to an 8-bit architecture to produce a considerably smaller program.
 
