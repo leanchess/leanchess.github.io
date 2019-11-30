@@ -2,7 +2,7 @@
 
 ## Lean Introduction
 
-LeanChess is a [free][license] chess program for the IBM PC AT (a [16-bit] machine) and compatibles. As of this writing, it's the world's [smallest](#smallest) [chess-playing](#chess) program. The shortest LeanChess edition (Barebone DOS) is 328 bytes long, 24 bytes shorter than the [previous record holder][chesskelet], or less than half the size of the legendary [1K ZX Chess][1kchess].
+LeanChess is a [free][license] chess program for the IBM PC AT (a [16-bit machine](#16-bit)) and compatibles. As of this writing, it's the world's [smallest](#smallest) [chess-playing](#chess) program. The shortest LeanChess edition (Barebone DOS) is 328 bytes long, 24 bytes shorter than the [previous record holder][chesskelet], or less than half the size of the legendary [1K ZX Chess][1kchess].
 
 How little is 328 bytes? Following Alex Garcia's (lost) lead, we tweaked the previous paragraph (sans links) to be of exactly this size.
 
@@ -37,7 +37,7 @@ On to the reason for switching from the PC to the PC AT. As we were browsing thr
 
 > Note: this instruction works only on 80186 CPU and later!
 
-As it turned out, `pusha` replaces eight consecutive `push`s, whereas its counterpart `popa` replaces seven `pop`s (along with two `dec sp`s in lieu of `pop sp`), meaning that using the two in conjunction could effectively reduce code size by up to 12 bytes. Applying this optimisation twice to LeanChess made it at least a 20 bytes smaller (the exact number is lost to the ages). It was either between or immediately after these two instances that it became leaner than Atomchess.
+As it turned out, `pusha` replaces eight consecutive `push`s, whereas its counterpart `popa` replaces seven `pop`s (along with two `dec sp`s in lieu of `pop sp`), meaning that using the two in conjunction could effectively reduce code size by up to 12 bytes. Applying this optimisation twice to LeanChess made it at least 20 bytes smaller (the exact number is lost to the ages). It was either between or immediately after these two instances that it became leaner than Atomchess.
 
 As we didn't initially know how to enable 80186 assembly, we blatantly substituted `pusha` and `popa` with `db 60h` and `db 61h`, respectively. Curiously, adding a `.186` assembler directive resulted in a further 1 byte being magically removed from the output.
 
