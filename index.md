@@ -52,8 +52,7 @@ First, the size of LeanChess itself can be marginally reduced by abusing the pai
 
 Second, a straightforward port of LeanChess to an 8-bit architecture will probably produce an even smaller chess program.
 
-## Who
-© 2019 [Dmitry Shechtman][contact]
+Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on this achievement.
 
 ## License
 [MIT License](license.md)
@@ -68,5 +67,6 @@ Second, a straightforward port of LeanChess to an 8-bit architecture will probab
 [hgm]: http://home.hccnet.nl/h.g.muller/chess.html
 [micromax]: http://home.hccnet.nl/h.g.muller/max-src2.html
 [chesskelet]: http://chesskelet.x10host.com
+[chesspro]: https://www.chessprogramming.org/Main_Page
 [source]: https://github.com/leanchess/leanchess
 [contact]: mailto:contact@leanchess.com
