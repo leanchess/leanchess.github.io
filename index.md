@@ -2,9 +2,9 @@
 
 ## Lean Introduction
 
-LeanChess is a [free][license] chess-playing program for the IBM PC AT (a 16-bit machine) and compatibles. As of this writing, it is the smallest chess program known to exist. The smallest LeanChess edition (Barebone DOS) has 329 bytes, 33 bytes less than the [previous record holder][chesskelet] and less than half the size of the legendary [1K ZX Chess][1kchess].
+LeanChess is a [free][license] chess program for the IBM PC AT (a [16-bit] machine) and compatibles. As of this writing, it's the world's [smallest] [chess]-playing program. The shortest LeanChess edition (Barebone DOS) is 328 bytes long, 24 bytes shorter than the [previous record holder][chesskelet], or less than half the size of the legendary [1K ZX Chess][1kchess].
 
-How small is 329 bytes? Following Alex Garcia's (lost) lead, we tweaked the previous paragraph to be of exactly the same size (without counting the links).
+How little is 328 bytes? Following Alex Garcia's (lost) lead, we tweaked the previous paragraph (sans links) to be of exactly this size.
 
 ## The Book of Lean
 
@@ -16,7 +16,7 @@ And Óscar Toledo Gutiérrez begat a program, and it was a true Boot Chess. And 
 
 And Alex Garcia begat a program, and it ran on ZX Spectrum. And he called its name [ChesSkelet], saying, After all fat is trimmed, only the skeleton remains. And men came and made ChesSkelet smaller; and it was 352 bytes long.
 
-And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 329 bytes long.
+And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DOS. And he called its name LeanChess, saying, The domain is available. And LeanChess had NegaMax, and no men came to make it smaller; and it was 328 bytes long.
 
 There were giants in the earth in those days, and also [before that][story]. Jan Kuipers had begotten [Tiny Chess 86][tinychess86]. H. G. Muller had begotten [MicroMax][micromax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
 
@@ -29,8 +29,10 @@ Many years ago, when we had hair where it belongs and didn't where it doesn't, w
 
 In late 2019, when we pondered developing an assembly-language chess game, the choice of platform seemed obvious to us. 8086/8088 assembly was still the only one we had had experience with, and as one's hair grows farther away from where it belongs, mastering unfamiliar architectures becomes less attainable. At that juncture we presumed we wouldn't ever approach [AtomChess]'s size, much less so that of [ChesSkelet].
 
+<a name="16-bit"></a>
 To benefit the less technically savvy reader, an oversimplified interjection is in order. 8086, being a 16-bit processor, offers a reacher instruction set than does its typical 8-bit counterpart, which means that more bytes are required for encoding an average instruction. As a consequence, an (average) machine language program of equivelant function would require much less storage space, unless it specifically requires 16-bit (or larger) words for computations and/or memory access. Chess, conversely, lends itself ideally to eight bits. This explains the little hope that we had of beating [ChesSkelet] at its game (sizecoding, not chess).
 
+<a name="pusha"></a>
 On to the reason from switching from the PC to the AT. As we were browsing through the x86 documentation, we stumbled upon an unfamiliar instruction: `pusha`. The description read:
 
 > Note: this instruction works only on 80186 CPU and later!
@@ -93,6 +95,7 @@ Again, there are numerous reasons for applying this particular design to OSless 
 1. Brown lends the board the color of unpainted wood.
 1. 1 byte of code is removed by using the same value for character count and character attributes.
 
+<a name="chess"></a>
 ## Is It Really Chess?
 
 H. G. Muller offers the following [definition]:
@@ -113,6 +116,7 @@ while remaining the smallest. We dub it **sufficiently chess**.
 
 Full chess (up to a point) and improved UX are planned future additions to LeanChess, albeit in neither of its currently published editions.
 
+<a name="smallest"></a>
 ## Is It Really the Smallest?
 
 Some people like to argue that a program that outputs `resign` and terminates should be considered the world's smallest chess program. H. G. Muller to the rescue once more:
@@ -124,9 +128,9 @@ Some people like to argue that a program that outputs `resign` and terminates sh
 
 A question of greater interest to us is the possibility of an actual chess program breaking the record currently held by LeanChess.
 
-First, the size of LeanChess itself could be further reduced (albeit marginally) by abusing the `pusha`/`popa` [optimisation](#AT). We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing it in the two instances we deemed absolutely necessary.
+First, the size of LeanChess itself could be further reduced (albeit marginally) by abusing the `pusha`/`popa` [optimisation](#pusha). We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing it in the two instances we deemed absolutely necessary.
 
-Second, we expect a straightforward port of LeanChess to an [8-bit architecture](#AT) to produce a considerably smaller binary. We leave this as an exercise for the reader, kindly requesting that, should they partake it, [the original copyright notice be included][license].
+Second, we expect a straightforward port of LeanChess to an [8-bit architecture](#16-bit) to produce a considerably smaller binary. We leave this as an exercise for the reader, kindly requesting that, should they partake it, [the original copyright notice be included][license].
 
 Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on our accomplishment.
 
