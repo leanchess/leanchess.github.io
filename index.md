@@ -124,7 +124,7 @@ Some people like to argue that a program that outputs `resign` and terminates sh
 
 A question of greater interest to us is the possibility of an actual chess program breaking the record currently held by LeanChess.
 
-First, the size of LeanChess itself can be marginally reduced by abusing the `pusha`/`popa` [optimisation](#AT). We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing in the two instances we deemed absolutely necessary.
+First, the size of LeanChess itself could be further reduced (albeit marginally) by abusing the `pusha`/`popa` [optimisation](#AT). We opted to keep the program lean in terms of stack allocations as well, and only resorted to employing it in the two instances we deemed absolutely necessary.
 
 Second, we expect a straightforward port of LeanChess to an [8-bit architecture](#AT) to produce a considerably smaller binary.
 
