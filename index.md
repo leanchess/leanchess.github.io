@@ -30,7 +30,7 @@ The following editions are currently available:
 Barebone |[COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|[COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
 Classic  | TBD |[COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/blob/classic-bios/LC.ASM)
 
-All of the above have the same AI, but different UI (notably, Barebone uses [O for bishops](#O)).
+All of the above have the same AI, but different UI (notably, Barebone uses [Os for bishops](#O)).
 
 Building from source:
 
@@ -111,11 +111,11 @@ which brings us to the question:
 <a name="O"></a>
 ## Why Os for Bishops?
 
-Reasons for denoting a bishop as O are many:
+Reasons for denoting a bishop with an O are many:
 
 1. It is colloquially known as *офицер (officer)* in Russian-speaking cultures.
 1. It is denoted as O in at least five different languages, namely: Albanian, Bulgarian, Estonian, Hindi, and Marathi<sup>[1]</sup>.
-1. BishOp contains an O, which brings it on par with kNight.
+1. bishOp contains an O, which brings it on par with kNight.
 1. It is mostly round.
 1. 7 bytes of code are removed thanks to the fact that K, N, O, P, Q and R are no farther than 7 positions apart in the ASCII table.
 
@@ -139,7 +139,7 @@ H. G. Muller offers the following [definition]:
   from the set of Chess moves that are legal from the current position
   according to the FIDE rules.
 
-Since LeanChess seems to fail this test, it cannot be considered a **full chess** implementation. Yet, it is:
+Since LeanChess seems to fail this test, it cannot be considered a **full chess** implementation. Yet, it is
 
 * recognisably chess,
 * very playable,
