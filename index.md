@@ -135,7 +135,7 @@ Firstly, the size of LeanChess itself could be further reduced (albeit marginall
 
 Secondly, we believe porting LeanChess to an [8-bit architecture](#16-bit) would yield a noticeably smaller binary. We leave that as an exercise for the reader (kindly requesting that, should they partake in it, [the original copyright notice be included][license]).
 
-Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on our accomplishment.
+Finally, LeanChess was created from scratch by a lone programmer with no assistance and without consulting existing assembly implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the editors of the [Chess Programming Wiki][chesspro]). We are eager to see how others improve on our accomplishment.
 
 [definition]: http://home.hccnet.nl/h.g.muller/definition.txt
 [1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess
