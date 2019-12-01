@@ -28,7 +28,7 @@ The following editions are currently available. The only difference is in the I/
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
 Barebone | [SRC](https://github.com/leanchess/leanchess/blob/master/LC.ASM)       [COM](TBD) | [ASM](https://github.com/leanchess/leanchess/blob/bios/LC.ASM) [COM](TBD)
-Classic  | [SRC]() [COM](TBD) | [ASM](https://github.com/leanchess/leanchess/tree/classic-bios/LC.ASM) [COM](TBD)
+Classic  | TBD | [ASM](https://github.com/leanchess/leanchess/tree/classic-bios/LC.ASM) [COM](TBD)
 
 Building from source:
 
