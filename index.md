@@ -23,7 +23,7 @@ There were giants in the earth in those days, and also [before that][story]. Jan
 <a name="tools"></a>
 ## Tools Used
 
-         |
+Function | Tool
 ---------|----------
 Editor   | Notepad++
 Compiler | TASM
