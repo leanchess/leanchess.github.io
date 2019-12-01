@@ -131,9 +131,9 @@ Some argue that a program that produces `resign` as its output and terminates is
 
 A question of greater interest to us is the possibility of an actual chess program breaking the record currently held by LeanChess.
 
-First, the size of LeanChess itself could be further reduced (albeit marginally) by abusing the `pusha`/`popa` [optimisation](#pusha). We opted to keep the program lean in terms of stack allocations as well by only employing it on two instances, where we deemed it absolutely necessary.
+Firstly, the size of LeanChess itself could be further reduced (albeit marginally) by abusing the `pusha`/`popa` [optimisation](#pusha). We opted to keep the program lean in terms of stack allocations as well by only employing it on two instances, where we deemed it absolutely necessary.
 
-Second, we expect a straightforward port of LeanChess to an [8-bit architecture](#16-bit) to produce a considerably smaller binary. We leave this as an exercise for the reader, kindly requesting that, should they partake it, [the original copyright notice be included][license].
+Secondly, we believe porting LeanChess to an [8-bit architecture](#16-bit) would yield a noticeably smaller binary. We leave that as an exercise for the reader (kindly requesting that, should they partake in it, [the original copyright notice be included][license]).
 
 Finally, LeanChess was created from scratch by a lone programmer with no outside assistance and without consulting existing assembly chess implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the [Chess Programming Wiki][chesspro] authors/contributors). We are eager to see how others improve on our accomplishment.
 
