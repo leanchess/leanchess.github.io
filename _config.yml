@@ -22,4 +22,4 @@ site:
   github:
     repository_url: "https://github.com/leanchess/leanchess"
 
-site.github.repository_url: "https://github.com/leanchess/leanchess"
+github.repository_url: "https://github.com/leanchess/leanchess"
