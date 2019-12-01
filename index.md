@@ -122,7 +122,7 @@ Full chess (up to a point) and improved UX are planned future LeanChess extensio
 <a name="smallest"></a>
 ## Is It Really the Smallest?
 
-Some people like to argue that a program that outputs `resign` and terminates should be considered the world's smallest chess program. H. G. Muller to the rescue once more:
+Some argue that a program that produces `resign` as its output and terminates is the world's smallest chess program. H. G. Muller to the rescue once again:
 
 > Chess is the act of moving pieces on a (real or virtual) Chess
   board, and (...) actions like resigning or negociating a draw
