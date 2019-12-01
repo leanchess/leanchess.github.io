@@ -27,8 +27,8 @@ The following editions are currently available (the AI is the same).
 
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
-Barebone | [SRC](https://github.com/leanchess/leanchess/blob/master/LC.ASM)       [COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM) | [SRC](https://github.com/leanchess/leanchess/blob/bios/LC.ASM) [COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)
-Classic  | TBD | [SRC](https://github.com/leanchess/leanchess/tree/classic-bios/LC.ASM) [COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)
+Barebone |[COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [SRC](https://github.com/leanchess/leanchess/blob/master/LC.ASM)|[COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [SRC](https://github.com/leanchess/leanchess/blob/bios/LC.ASM)
+Classic  | TBD |[COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [SRC](https://github.com/leanchess/leanchess/tree/classic-bios/LC.ASM)
 
 Building from source:
 
