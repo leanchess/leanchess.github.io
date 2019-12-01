@@ -23,12 +23,14 @@ There were giants in the earth in those days, and also [before that][story]. Jan
 <a name="editions"></a>
 ## LeanChess Editions
 
-The following editions are currently available (all having the same AI).
+The following editions are currently available:
 
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
 Barebone |[COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|[COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
 Classic  | TBD |[COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/blob/classic-bios/LC.ASM)
+
+All of the above have the same AI, but different UI (notably, Barebone uses [O for bishops](#O)).
 
 Building from source:
 
@@ -106,6 +108,7 @@ Furthermore, its UX is fairly rudimentary, offering
 
 which brings us to the question:
 
+<a name="O"></a>
 ## Why Os for Bishops?
 
 Reasons for denoting a bishop as O are many:
