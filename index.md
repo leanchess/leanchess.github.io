@@ -23,13 +23,14 @@ There were giants in the earth in those days, and also [before that][story]. Jan
 <a name="tools"></a>
 ## Tools Used
 
-|Function | Tool
-|---------|----------
-|Emulator | DOSBox
-|Editor   | Notepad++
-|Compiler | TASM
-|Linker   | TLINK
-|Debugger | `mov ax, 0924h`|`int 21h`
+| Function | Tool
+|----------|----------
+| Emulator | DOSBox
+| Editor   | Notepad++
+| Compiler | TASM
+| Linker   | TLINK
+| Debugger | `mov ax, 0924h`
+|          |`int 21h`
          
 <a name="AT"></a>
 ## Why the AT?
