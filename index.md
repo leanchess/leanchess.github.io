@@ -57,11 +57,11 @@ No computer series (to speak of) were based on 80186, making IBM PC AT the earli
 <a name="strength"></a>
 ## How Good Is It?
 
-LeanChess features:
+LeanChess features
 
 * exhaustive NegaMax search
-* to constant depth (the default is 3, although 4 performed acceptably in our DOSBox)
-* with material-based evaluation.
+* to a constant depth (the default is 3, although 4 performed acceptably in our DOSBox)
+* with material-only evaluation.
 
 Since all its (known) bugs had been fixed, LeanChess won every game it played against its creator, a fact that probably testifies to the weakness of the latter rather than to the strength of the former.
 
