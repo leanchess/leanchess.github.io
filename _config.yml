@@ -6,10 +6,6 @@ source: leanchess/leanchess
 author:
   name: Dmitry Shechtman
 
-site:
-  github:
-    repository_url: https://github.com/leanchess/leanchess
-
 social-network-links:
   rss: true
   email: "contact@leanchess.com"
@@ -21,3 +17,5 @@ share-links-active:
   facebook: true
 
 url-pretty: "leanchess.com"
+
+site.github.repository_url: https://github.com/leanchess/leanchess
