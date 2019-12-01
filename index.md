@@ -28,6 +28,7 @@ Function | Tool
 Editor   | Notepad++
 Compiler | TASM
 Linker   | TLINK
+---------|----------------
 Debugger | `mov ax, 0924h`
          | `int 21h`
          
