@@ -20,6 +20,15 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 There were giants in the earth in those days, and also [before that][story]. Jan Kuipers had begotten [Tiny Chess 86][tinychess86]. H. G. Muller had begotten [MicroMax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
 
+<a name="tools"></a>
+## Tools Used
+
+Editor   | Notepad++
+Compiler | TASM
+Linker   | TLINK
+Debugger | `mov ax, 0924h`
+         | `int 21h`
+         
 <a name="AT"></a>
 ## Why the AT?
 
