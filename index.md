@@ -20,6 +20,23 @@ And Dmitry Shechtman begat a [program][source], and it ran on IBM PC AT under DO
 
 There were giants in the earth in those days, and also [before that][story]. Jan Kuipers had begotten [Tiny Chess 86][tinychess86]. H. G. Muller had begotten [MicroMax] and [others][hgm]. Óscar Toledo G. had begotten [Nanochess], [JavaScript 1K Chess][js1k], [Atari Atomchess][atomchess], and [others][toledo].
 
+<a name="editions"></a>
+##LeanChess Editions
+
+The following editions are currently available. The only difference is in the I/O, while the AI remains unchanged.
+
+| DOS | BIOS
+---------|--|--
+Barebone | [SRC](https://github.com/leanchess/leanchess/blob/master/LC.ASM)       [COM](TBD) | [ASM](https://github.com/leanchess/leanchess/blob/bios/LC.ASM) [COM](TBD)
+Classic  | [SRC]() [COM](TBD) | [ASM](https://github.com/leanchess/leanchess/tree/classic-bios/LC.ASM) [COM](TBD)
+
+Building from source:
+
+```
+tasm lc
+tlink /t lc
+```
+
 <a name="tools"></a>
 ## Tools Used
 
