@@ -29,8 +29,10 @@ There were giants in the earth in those days, and also [before that][story]. Jan
 | Editor   | Notepad++
 | Compiler | TASM
 | Linker   | TLINK
-| Debugger | `mov ax, 0924h`
-|          |`int 21h`
+| Debugger |  ```
+|          |  mov ax, 0924h
+|          |  int 21h
+|          |  ```
          
 <a name="AT"></a>
 ## Why the AT?
