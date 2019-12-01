@@ -23,7 +23,7 @@ There were giants in the earth in those days, and also [before that][story]. Jan
 <a name="editions"></a>
 ## LeanChess Editions
 
-The following editions are currently available (the AI is the same).
+The following editions are currently available (all having the same AI).
 
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
