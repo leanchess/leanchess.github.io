@@ -30,7 +30,7 @@ The following editions are currently available:
 Barebone |![LCBD](images/lcbd.png) [COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
 Classic  |![LCCD](images/lccd.png) COM (338b) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
 
-All of the above have the same AI, but different UI (notably, Barebone uses [Os for bishops](#O)).
+All of the above share the same [AI](#ai), yet different [UI](#O).
 
 Building from source:
 
@@ -73,7 +73,7 @@ As we were initially ignorant of a method of enabling 80186 assembler support, w
 
 No computer series (to speak of) were based on 80186, making IBM PC AT the earliest platform to support this extension and, coincidentally, the minimum requirement for LeanChess.
 
-<a name="strength"></a>
+<a name="ai"></a>
 ## How Good Is It?
 
 LeanChess features
