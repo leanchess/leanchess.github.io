@@ -1,5 +1,3 @@
-![avatar](https://secure.gravatar.com/avatar/5f79d29ddd71d9757723cb4b51cc424e)
-
 ## Lean Introduction
 
 LeanChess is a [free][license] chess program for the IBM PC AT (a [16-bit machine](#16-bit)) and compatibles. As of this writing, it is the world’s [smallest](#smallest) [chess-playing](#chess) program. The shortest LeanChess edition ([Barebone DOS](#editions)) is 328 bytes long, 24 bytes shorter than the [previous record holder][chesskelet], or less than half the size of the legendary [1K ZX Chess][1kchess].
@@ -27,8 +25,8 @@ The following editions are currently available:
 
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
-Barebone |[COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|[COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
-Classic  | TBD |[COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/blob/classic-bios/LC.ASM)
+Barebone |![LCBD](images/lcbd.png) [COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
+Classic  | TBD |![LCCB](images/lccb.png) [COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/blob/classic-bios/LC.ASM)
 
 All of the above have the same AI, but different UI (notably, Barebone uses [Os for bishops](#O)).
 
