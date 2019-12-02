@@ -114,7 +114,7 @@ which brings us to the question:
 Reasons for denoting a bishop with an O are many:
 
 1. It is colloquially known as *офицер (officer)* in Russian-speaking cultures.
-1. It is denoted as O in at least five different languages, namely: Albanian, Bulgarian, Estonian, Hindi, and Marathi<sup>[1]</sup>.
+1. It is denoted with an O in at least five different languages<sup>[1]</sup>.
 1. bishOp contains an O, which brings it on par with kNight.
 1. It is mostly round.
 1. 7 bytes of code are removed thanks to the fact that K, N, O, P, Q and R are no farther than 7 positions apart in the ASCII table.
