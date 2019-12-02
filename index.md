@@ -28,7 +28,7 @@ The following editions are currently available:
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
 Barebone |![LCBD](images/lcbd.png) [COM (328b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (333b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
-Classic  |![LCCD](images/lccd.png) COM (338b) [ASM](https://github.com/leanchess/leanchess/blob/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/blob/classic-bios/LC.ASM)
+Classic  |![LCCD](images/lccd.png) COM (338b) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (342b)](https://github.com/leanchess/leanchess/releases/download/v1.0/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
 
 All of the above have the same AI, but different UI (notably, Barebone uses [Os for bishops](#O)).
 
