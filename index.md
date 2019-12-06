@@ -30,7 +30,7 @@ The following editions are currently available:
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
 Classic  |![LCCD](images/lccd.png) [COM (324b)](https://github.com/leanchess/leanchess/releases/download/v1.4/LCCD.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (329b)](https://github.com/leanchess/leanchess/releases/download/v1.4/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
-Barebone |![LCBD](images/lcbd.png) [COM (324b)](https://github.com/leanchess/leanchess/releases/download/v1.4/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (331b)](https://github.com/leanchess/leanchess/releases/download/v1.4/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
+Barebone |![LCBD](images/lcbd.png) [COM (325b)](https://github.com/leanchess/leanchess/releases/download/v1.4/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (331b)](https://github.com/leanchess/leanchess/releases/download/v1.4/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
 
 All of the above share the same [AI](#ai), yet have different [UI](#O).
 
