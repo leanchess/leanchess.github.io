@@ -34,7 +34,7 @@ Barebone |![LCBD](images/lcbd.png) [COM (324b)](https://github.com/leanchess/lea
 
 All of the above share the same [AI](#ai), yet have different [UI](#O).
 
-Grouping crawling/sliding pieces in v1.4 (another idea borrowed from [MicroMax]) removed 10 bytes in Classic, making them the primary LeanChess editions.
+Grouping crawling/sliding pieces together in v1.4 (another idea borrowed from [MicroMax]) removed 10 bytes in Classic, making them the primary LeanChess editions.
 
 Building from source:
 
