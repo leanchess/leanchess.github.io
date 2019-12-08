@@ -8,7 +8,7 @@ How little is 306 bytes? Following Alex Garcia's (lost) lead, we have been tweak
 
 > As the program shrinks it's becoming a challenge to adjust the paragraph. :-)
 
-**Update 08/12/2019:** Version 1.7 fixes a bug in move generation while removing a further 6 bytes in Barebone editions!
+**Update 08/12/2019:** [Version 1.7][releases] fixes a bug in move generation while removing a further 6 bytes in Barebone editions!
 
 ## The Book of Lean
 
@@ -170,7 +170,7 @@ Firstly, the size of LeanChess itself could be further reduced (albeit marginall
 
 Secondly, we believe porting LeanChess to an [8-bit architecture](#16-bit) would yield a noticeably smaller binary. We leave that as an exercise for the reader (kindly requesting that, should they partake in it, [the original copyright notice be included][license]).
 
-Finally, LeanChess was created from scratch by a lone programmer with no assistance and without consulting existing assembly implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the editors of the [Chess Programming Wiki][chesspro]). We are [eager to see][contact] how others improve on our accomplishment.
+Finally, [LeanChess 1.0][releases] was created from scratch by a lone programmer with no assistance and without consulting existing assembly implementations (we had had a look at [MicroMax] a long time ago, and we are truly grateful to the editors of the [Chess Programming Wiki][chesspro]). We are [eager to see][contact] how others improve on our accomplishment.
 
 [definition]: http://home.hccnet.nl/h.g.muller/definition.txt
 [1kchess]: http://users.ox.ac.uk/~uzdm0006/scans/1kchess
@@ -186,6 +186,7 @@ Finally, LeanChess was created from scratch by a lone programmer with no assista
 [story]: http://chesskelet.x10host.com/story.html
 [chesspro]: https://www.chessprogramming.org/Main_Page
 [source]: https://github.com/leanchess/leanchess
+[releases]: https://github.com/leanchess/leanchess/releases
 [contact]: mailto:contact@leanchess.com
 [license]: https://github.com/leanchess/leanchess/blob/master/LICENSE
 [edition]: #editions
