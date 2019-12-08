@@ -2,9 +2,9 @@
 
 ## Lean Introduction
 
-LeanChess is a [free][license] chess program for the IBM PC AT and compatible computers. As of this writing, it’s the world’s [smallest](#smallest) [chess-playing](#chess) program. Its smallest [edition] takes up 302 bytes, 50 bytes fewer than the [previous record holder][ChesSkelet], or 34 bytes fewer than **half** the size of the legendary [1K ZX Chess][1kchess]!
+LeanChess is a [free][license] chess program for the IBM PC AT and compatible computers. As of this writing, it’s the world’s [smallest](#smallest) [chess-playing](#chess) program. Its smallest [edition] takes up 302 bytes, 50 bytes fewer than the [previous record holder][ChesSkelet], or 34 bytes *fewer than half* the size of the legendary [1K ZX Chess][1kchess]!
 
-How little is 302 bytes? Following Alex Garcia's (lost) lead, we've been tweaking the text in the previous paragraph so that it takes up the same exact amount of RAM (sans links).
+How little is 302 bytes? Following Alex Garcia's (lost) lead, we've been tweaking the text in the previous paragraph so that it takes up the same exact amount of RAM (sans links and formatting).
 
 > As the program shrinks it's becoming a challenge to adjust the paragraph. :-)
 
