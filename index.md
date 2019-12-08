@@ -2,13 +2,13 @@
 
 ## Lean Introduction
 
-LeanChess is a [free][license] chess program for the IBM PC AT and compatible computers. As of this writing, it’s the world’s [smallest](#smallest) [chess-playing](#chess) program. The shortest LeanChess [edition] is only 312 bytes long, 40 bytes shorter than the [previous record holder][ChesSkelet]. That’s less than half the size of the legendary [1K ZX Chess][1kchess]!
+LeanChess is a [free][license] chess program for the IBM PC AT and compatible computers. As of this writing, it stands as the world’s [smallest](#smallest) [chess-playing](#chess) program. Its shortest [edition] is only 306 bytes long, 46 bytes shorter than the [previous record holder][ChesSkelet], or less than half the size of the legendary [1K ZX Chess][1kchess].
 
-How little is 312 bytes? Following Alex Garcia's (lost) lead, we have been tweaking the text in the previous paragraph so that it takes up the same exact amount of RAM.
+How little is 306 bytes? Following Alex Garcia's (lost) lead, we have been tweaking the text in the previous paragraph so that it takes up the same exact amount of RAM.
 
 > As the program shrinks it's becoming a challenge to adjust the paragraph. :-)
 
-**Update 07/12/2019:** LeanChess just got smaller again! Version 1.6 removes additional 2 bytes from all editions.
+**Update 08/12/2019:** Version 1.7 fixes a bug in move generation while removing a further 6 bytes in Barebone editions!
 
 ## The Book of Lean
 
@@ -31,8 +31,8 @@ The following editions are currently available:
 
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
-Barebone |![LCBD](images/lcbd.png) [COM (312b)](https://github.com/leanchess/leanchess/releases/download/v1.6/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (317b)](https://github.com/leanchess/leanchess/releases/download/v1.6/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
-Classic  |![LCCD](images/lccd.png) [COM (319b)](https://github.com/leanchess/leanchess/releases/download/v1.6/LCCD.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (324b)](https://github.com/leanchess/leanchess/releases/download/v1.6/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
+Barebone |![LCBD](images/lcbd.png) [COM (306b)](https://github.com/leanchess/leanchess/releases/download/v1.7/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (311b)](https://github.com/leanchess/leanchess/releases/download/v1.7/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
+Classic  |![LCCD](images/lccd.png) [COM (318b)](https://github.com/leanchess/leanchess/releases/download/v1.7/LCCD.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (323b)](https://github.com/leanchess/leanchess/releases/download/v1.7/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
 
 All of the above share the same [AI](#ai), yet have different [UI](#O).
 
