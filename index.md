@@ -8,7 +8,7 @@ How little is 289 bytes? Following Alex Garcia's (lost) lead, we've been tweakin
 
 > As the program shrinks it's becoming a challenge to adjust the paragraph. :-)
 
-**Update 09/12/2019:** [Version 1.9.3][releases] removes 4 bytes off all editions!
+**Update 09/12/2019:** [Version 1.9.3][releases] removes 4 bytes off all LeanChess editions!
 
 ## The Book of Lean
 
