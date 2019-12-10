@@ -8,7 +8,7 @@ How little is 288 bytes? Following Alex Garcia's (lost) lead, we've been tweakin
 
 > As the program shrinks it's becoming a challenge to adjust the paragraph. :-)
 
-**Update 09/12/2019:** [Version 1.9.3][releases] removes 4 bytes off all LeanChess editions!
+**Update 10/12/2019:** [Version 1.9.4][releases] one small step for LeanChess, one giant leap for chesskind: LeanChess is now 64 bytes smaller than ChesSkelet!
 
 ## The Book of Lean
 
@@ -31,8 +31,8 @@ The following editions are currently available:
 
 &nbsp;   | DOS | BIOS
 ---------|-----|-----
-Barebone |![LCBD](images/lcbd.png) [COM (288b)](https://github.com/leanchess/leanchess/releases/download/v1.9.4/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (293b)](https://github.com/leanchess/leanchess/releases/download/v1.9.4/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
-Classic  |![LCCD](images/lccd.png) [COM (302b)](https://github.com/leanchess/leanchess/releases/download/v1.9.4/LCCD.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (307b)](https://github.com/leanchess/leanchess/releases/download/v1.9.4/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
+Barebone |![LCBD](images/lcbd.png) [COM (288b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (292b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
+Classic  |![LCCD](images/lccd.png) [COM (302b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCCD.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (306b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
 
 All of the above share the same [AI](#ai), yet have different [UI](#O).
 
