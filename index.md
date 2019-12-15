@@ -33,11 +33,17 @@ The following editions are currently available:
 ---------|-----|-----
 Barebone |![LCBD](images/lcbd.png) [COM (288b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCBD.COM)  [ASM](https://github.com/leanchess/leanchess/raw/master/LC.ASM)|![LCBB](images/lcbb.png) [COM (292b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCBB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/bios/LC.ASM)
 Classic  |![LCCD](images/lccd.png) [COM (302b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCCD.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic/LC.ASM) |![LCCB](images/lccb.png) [COM (306b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCCB.COM)  [ASM](https://github.com/leanchess/leanchess/raw/classic-bios/LC.ASM)
-LeanChess960|![LC960](images/lc960.png) [COM (374b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LC960.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-960/LC.ASM)
 
 All of the above share the same [AI](#ai), yet have different [UI](#O).
 
-Building from source:
+<a name="lc960"></a>
+## LeanChess960
+
+An implementation of Chess960 (a.k.a. Fischer Random Chess) in 374 bytes. It is able to randomly produce any of the 960 starting positions (with nearly uniform probability), yet it is smaller than [Atomchess] (which only implements the ordinary starting position).
+
+![LC960](images/lc960.png) [COM (374b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LC960.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-960/LC.ASM)
+
+## Building from Source
 
 ```
 tasm lc
@@ -56,11 +62,6 @@ tlink /t lc
 | Debugger | `mov ax, 0924h`
 |          | `stosb`
 |          | `int 21h`
-
-<a name="lc960"></a>
-## LeanChess960
-
-An implementation of Chess960 (a.k.a. Fischer Random Chess) in 374 bytes. It is able to randomly produce any of the 960 starting positions (with nearly uniform probabilities), yet it is smaller than [Atomchess] (which only implements the ordinary starting position).
 
 <a name="AT"></a>
 ## Why the AT?
@@ -158,7 +159,7 @@ Since LeanChess seems to fail this test, it cannot be considered a **full chess*
 
 while remaining the smallest. We dub it **sufficiently chess**.
 
-Full chess (up to a point) and improved UX are planned future LeanChess extensions, albeit to neither of its currently published editions.
+Full chess (up to a point) and improved UX are planned future LeanChess extensions, albeit to neither Barebone nor Classic editions.
 
 <a name="smallest"></a>
 ## Is It Really the Smallest?
