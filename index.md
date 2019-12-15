@@ -41,7 +41,9 @@ All of the above share the same [AI](#ai), yet have different [UI](#O).
 
 An implementation of Chess960 (a.k.a. Fischer Random Chess) in 374 bytes. It is able to randomly produce any of the 960 starting positions (with nearly uniform probability), yet it is smaller than [Atomchess] (which only implements the ordinary starting position).
 
-![LC960](images/lc960.png) [COM (374b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LC960.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-960/LC.ASM)
+![LC960](images/lc960.png)
+
+[COM (374b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LC960.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-960/LC.ASM)
 
 ## Building from Source
 
