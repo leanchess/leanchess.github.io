@@ -8,7 +8,7 @@ How little is 288 bytes? Following Alex Garcia's (lost) lead, we've been tweakin
 
 > As the program shrinks it's becoming a challenge to adjust the paragraph. :-)
 
-**Update 15/12/2019:** [LeanChess960] released.
+**Update 16/12/2019:** [LeanGrandChess] released.
 
 ## The Book of Lean
 
@@ -44,6 +44,15 @@ An implementation of Chess960 (a.k.a. Fischer Random Chess) in 374 bytes. It is 
 ![LC960](images/lc960.png)
 
 [COM (374b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LC960.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-960/LC.ASM)
+
+<a name="lcgrand"></a>
+## LeanGrandChess
+
+An implementation of Grand Chess in 383 bytes, same size as [Atomchess] (which only implements the ordinary pieces on 8x8 board).
+
+![LCGRAND](images/lcgrand.png)
+
+[COM (383b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5/LCG.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-grand/LC.ASM)
 
 ## Building from Source
 
