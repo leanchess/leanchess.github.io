@@ -211,4 +211,5 @@ Finally, [LeanChess 1.0][releases] was created from scratch by a lone programmer
 [16-bit]: #16-bit
 [pusha]: #pusha
 [leanchess960]: #lc960
+[leangrandchess]: #lcgrand
 [1]: https://en.wikipedia.org/wiki/Chess_piece
