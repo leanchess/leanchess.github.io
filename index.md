@@ -48,7 +48,7 @@ An implementation of Chess960 (a.k.a. Fischer Random Chess) in 374 bytes. It is 
 <a name="lcgrand"></a>
 ## LeanGrandChess
 
-An implementation of Grand Chess in 383 bytes, same size as [Atomchess] (FIDE pieces on 8x8 board).
+An implementation of Grand Chess in 383 bytes, same size as [Atomchess] (which only implements FIDE pieces on 8x8 board).
 
 ![LCGRAND](images/lcgrand.png)
 
