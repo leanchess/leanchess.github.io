@@ -46,7 +46,7 @@ An implementation of Chess960 (a.k.a. Fischer Random Chess) in 372 bytes. It is 
 [COM (372b)](https://github.com/leanchess/leanchess/releases/download/v1.9.5.1/LC960.COM) [ASM](https://github.com/leanchess/leanchess/raw/classic-960/LC.ASM)
 
 <a name="lcrc"></a>
-## LeanCRCR
+## LeanCRC
 
 An implementation of Capablanca Random Chess in 476 bytes.
 
